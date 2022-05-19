@@ -1,11 +1,40 @@
 .recipeThumbnail {
   width: 100%;
+  max-width: fit-content;
   height: auto;
   border-style: solid;
   border-color: black;
-  display: block;
+  border-width: 2px;
+  border-radius: 20px;
+}
+
+nav {
+  list-style: none;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 5px;
 }
 
 body {
+  scroll-behavior: smooth;
   background-color: bisque;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/*for smaller screens*/
+@media only screen and (min-width: 700px) {
+  body {
+    scroll-behavior: smooth;
+    justify-content: center;
+    text-align: center;
+  }
 }
