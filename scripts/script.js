@@ -1,1 +1,1 @@
-alert("Thanks for visiting!");
+// alert("Thanks for visiting!");
