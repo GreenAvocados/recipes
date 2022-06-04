@@ -87,8 +87,7 @@ body {
   background-color: rgb(56, 55, 55);
   animation: 5s ease-out 0s 1 slideInLeft;
 }
-
-@keyframes slideInLeft {
+@keyframes top2bottom {
   0% {
     transform: translateY(-100%);
   }
@@ -96,6 +95,6 @@ body {
     transform: translateY(0%);
   }
   50.0% {
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(187, 187, 187);
   }
 }
